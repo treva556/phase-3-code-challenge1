@@ -9,15 +9,27 @@ class Magazine
         @@all_magazines << self
     end
 
-    def magazine_name
-        @name
-    end
-
-    def magazine_category
-        @category
-    end
-
     def magazine_all
         @@all_magazines
     end
+    
+    def contributors
+        Article.all.select { |article| article.magazine == self }.map { |article| article.author }.uniq
+        end
+        
+        def self.find_by_name(name)
+        self.all.find { |magazine| magazine.name == name }
+        end
+        
+        def article_titles
+        Article.all.select { |article| article.magazine == self }.map { |article| article.title }
+        end
+        
+        def contributing_authors
+        self.contributors.select { |author| author.articles.count > 2 }
+        end
+
 end
+
+mag = Magazine.new("good", "ruu")
+puts mag.name

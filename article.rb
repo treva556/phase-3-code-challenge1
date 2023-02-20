@@ -10,12 +10,12 @@ class Article
         @@all_articles  << self
     end
 
-    def article_title
-        @title
-    end
-
     def self.all
         @@all_articles
     end
 
 end
+
+trevs = Article.new("trevs", "good", "lol")
+#puts self.all
+puts trevs.author
