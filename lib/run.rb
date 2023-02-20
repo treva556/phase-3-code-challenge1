@@ -11,7 +11,10 @@ mag3 = Magazine.new("Mock", "health")
 mag4 = Magazine.new("Grammy", "music")
 mag5 = Magazine.new("Emmy", "movie")
 
-pp jeff.add_article(mag5, "Not so good people")
+jeff.add_article(mag5, "Not so good people")
+jeff.add_article(mag4, "Goood people")
+
+pp jeff.articles
 
 
 
