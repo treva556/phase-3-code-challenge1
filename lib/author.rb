@@ -1,4 +1,6 @@
-class Author
+require_relative './magazine.rb'
+
+ class Author
     attr_reader :name
     def initialize(name)
         @name = name
@@ -24,4 +26,4 @@ class Author
     magazine.map{|magazine| magazine.category}.uniq
   end
 end
-#,.
+

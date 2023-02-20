@@ -9,10 +9,10 @@ class Magazine
         @@all_magazines << self
     end
 
-    def magazine_all
+    def self.all
         @@all_magazines
     end
-    
+
     def contributors
         Article.all.select { |article| article.magazine == self }.map { |article| article.author }.uniq
         end
@@ -30,6 +30,16 @@ class Magazine
         end
 
 end
-
+=begin
 mag = Magazine.new("good", "ruu")
 puts mag.name
+=end
+mag1 = Magazine.new("Vogue", "fashion")
+mag2 = Magazine.new("Vice", "crime")
+mag3 = Magazine.new("Mock", "health")
+mag4 = Magazine.new("Grammy", "music")
+mag5 = Magazine.new("Emmy", "movie")
+
+#puts self.all
+#puts mag3.name
+

@@ -15,7 +15,8 @@ class Article
     end
 
 end
-
+=begin
 trevs = Article.new("trevs", "good", "lol")
 #puts self.all
 puts trevs.author
+=end
