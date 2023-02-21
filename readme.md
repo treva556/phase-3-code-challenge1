@@ -53,6 +53,8 @@ Running the application is very straight forward. You can use the following step
 
       ruby lib/ruby.rb
 
+- You can remove the commented code
+
 ## Author
 Mark Trevor marktreva@gmail.com
 
