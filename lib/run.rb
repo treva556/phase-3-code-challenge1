@@ -28,3 +28,4 @@ puts trevs.author
 #puts self.all_magazines
 #puts mag3.name
 puts mag3.category
+#

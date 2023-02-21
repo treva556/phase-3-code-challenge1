@@ -34,4 +34,4 @@ end
 # jeff.add_article("Fenn", "Not so good people")
 # fenn = mag
 # title = Good People
-# puts jeff.articles
+# puts jeff.articles  -

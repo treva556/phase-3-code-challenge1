@@ -21,4 +21,4 @@ trevs = Article.new("trevs", "good", "lol")
 puts trevs.author
 =end
 
-#trevs = Article.new("Jeff","Fenn", "Good People")
+#trevs = Article.new("Jeff","Fenn", "Good People")#
