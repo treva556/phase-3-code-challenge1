@@ -44,7 +44,7 @@ To use this repo on your machine requires some simple steps::
         git clone https://github.com/treva556/phase-3-code-challenge1
 
 
-# Running the application
+## Running the application
 
 Running the application is very straight forward. You can use the following steps to run the app.
 
@@ -56,8 +56,8 @@ Running the application is very straight forward. You can use the following step
 
       ruby lib/ruby.rb
 
-# Author
+## Author
 Mark Trevor marktreva@gmail.com
 
-# Licence
+## Licence
 Trevor Licence @007
