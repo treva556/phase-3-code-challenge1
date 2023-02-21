@@ -32,12 +32,12 @@ class Magazine
 end
 
 
-mag7= Magazine.new("Tetra", "hope")
+#mag7= Magazine.new("Tetra", "hope")
 =begin
 mag = Magazine.new("good", "ruu")
 puts mag.name
 =end
-pp Magazine.find_by_name("Tetra")
+#pp Magazine.find_by_name("Tetra")
 
 #puts self.all
 # puts mag3.name
