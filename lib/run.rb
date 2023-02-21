@@ -22,7 +22,7 @@ pp jeff.articles
 pp kate.articles
 
 
-
+#
 #puts self.all
 puts trevs.author
 #puts self.all_magazines
