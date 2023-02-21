@@ -1,13 +1,18 @@
 class Author
     attr_reader :name
+
+    @@all = []
+
     def initialize(name)
         @name = name
+        @@all << self
     end
 
-   def author_name
-    @name
-   end
+    def self.all
+      @@all
+    end
 
+   
    def articles
     Article.all.filter{|article| article.author == @name}
   end
