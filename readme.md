@@ -31,10 +31,6 @@ To use this repo on your machine requires some simple steps::
 
 - (Optional) Open it in ``Visual Studio Code` or an editor of choice
 
-
-- (Alternate Option) Open it in any editor of your choice.
-- Hurray! You are one step closer to being as intelligent as Einstein.
-
 ### Alternative Two
 
 - On the top right corner of this page there is a button labelled ``Fork``.
