@@ -1,4 +1,4 @@
-## Articles-without-AR
+# Articles-without-AR
 This is a code challenge for building a simple Ruby application with object-oriented design principles. The application is a magazine system that contains articles, authors, and magazines.
 
 ## Tools Used
