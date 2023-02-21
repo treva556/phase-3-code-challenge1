@@ -1,6 +1,4 @@
-require_relative './magazine.rb'
-
- class Author
+class Author
     attr_reader :name
     def initialize(name)
         @name = name
