@@ -1,16 +1,16 @@
 class Magazine
     attr_accessor :name, :category
 
-    @@all_magazines = []
+    @@all = []
 
     def initialize(name, category)
         @name = name
         @category = category
-        @@all_magazines << self
+        @@all << self
     end
 
     def self.all
-        @@all_magazines
+        @@all
     end
 
     def contributors
