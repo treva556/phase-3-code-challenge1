@@ -54,6 +54,12 @@ Running the application is very straight forward. You can use the following step
       ruby lib/ruby.rb
 
 - You can remove the commented code
+## As a backend developer i can:
+- create article with author, magazine and title as attributes
+- create authors with name attribute
+- create magazine with name and category attributes
+- Add articles to authors and able to lookup articles and magazines belonging to authors
+- find magazines by name and see article titles under the magazines
 
 ## Author
 Mark Trevor marktreva@gmail.com
